@@ -1,0 +1,620 @@
+﻿Log file open, 07/18/17 09:04:20
+LogInit:Display: Running engine for game: Magisterka
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1389327339) SRandInit(-1389327339).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.155023
+LogPluginManager: Loaded Plugin Paper2D, From D:/Unreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Unreal/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Unreal/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Unreal/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Unreal/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3224400
+LogInit: Engine Version: 4.14.1-3224400+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Dec  7 2016 02:14:32
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.18-08.04.20:791][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.18-08.04.20:791][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.18-08.04.20:802][  0]LogInit: Computer: HACKME
+[2017.07.18-08.04.20:802][  0]LogInit: User: Onirke
+[2017.07.18-08.04.20:802][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.07.18-08.04.20:802][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2017.07.18-08.04.20:802][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.18-08.04.20:802][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.04.20:802][  0]LogMemory: Process Physical Memory: 263.06 MB used, 263.06 MB peak
+[2017.07.18-08.04.20:802][  0]LogMemory: Process Virtual Memory: 262.75 MB used, 262.75 MB peak
+[2017.07.18-08.04.20:802][  0]LogMemory: Physical Memory: 3824.34 MB used,  4256.23 MB free, 8080.57 MB total
+[2017.07.18-08.04.20:804][  0]LogMemory: Virtual Memory: 659.92 MB used,  4256.23 MB free, 134217728.00 MB total
+[2017.07.18-08.04.20:840][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.07.18-08.04.21:993][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.18-08.04.22:019][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
+[2017.07.18-08.04.22:019][  0]LogD3D11RHI:       1985/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.18-08.04.22:041][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
+[2017.07.18-08.04.22:041][  0]LogD3D11RHI:       1985/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.07.18-08.04.22:044][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.18-08.04.22:044][  0]LogD3D11RHI:       1985/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.18-08.04.22:045][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.18-08.04.22:053][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.18-08.04.22:053][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.18-08.04.22:053][  0]LogWindows: EnumDisplayDevices:
+[2017.07.18-08.04.22:053][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2017.07.18-08.04.22:054][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:1)
+[2017.07.18-08.04.22:054][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.07.18-08.04.22:054][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660M' (P:0 D:0)
+[2017.07.18-08.04.22:055][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.07.18-08.04.22:055][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
+[2017.07.18-08.04.22:055][  0]LogD3D11RHI:   Driver Version: 347.25 (internal:9.18.13.4725, unified:347.25)
+[2017.07.18-08.04.22:055][  0]LogD3D11RHI:      Driver Date: 1-9-2015
+[2017.07.18-08.04.22:055][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.18-08.04.22:078][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.18-08.04.22:104][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.18-08.04.22:105][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../../Magisterka/Magisterka/Intermediate/Shaders/WorkingDirectory/3256/).
+[2017.07.18-08.04.22:105][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tommec/AppData/Local/Temp/UnrealShaderWorkingDir/36B9D5C84CA41F01899144A257E5A066/'.
+[2017.07.18-08.04.22:105][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.18-08.04.23:692][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.18-08.04.23:758][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.18-08.04.23:832][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.18-08.04.23:903][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.18-08.04.23:970][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.18-08.04.24:039][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.18-08.04.24:106][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.18-08.04.24:178][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.18-08.04.24:232][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.18-08.04.24:301][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.18-08.04.24:364][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.18-08.04.24:429][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.18-08.04.24:494][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.18-08.04.24:561][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.18-08.04.24:624][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.18-08.04.24:763][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.18-08.04.24:763][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.18-08.04.24:798][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.18-08.04.24:895][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.18-08.04.24:939][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.18-08.04.25:156][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.18-08.04.25:248][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.18-08.04.25:322][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.18-08.04.25:387][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.18-08.04.25:387][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.18-08.04.25:801][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.18-08.04.25:871][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/Tommec/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.07.18-08.04.25:871][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tommec/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.07.18-08.04.25:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Magisterka/Magisterka/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.18-08.04.25:871][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.18-08.04.25:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Magisterka/Magisterka/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.18-08.04.25:871][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.18-08.04.25:901][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.18-08.04.25:914][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tommec/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.18-08.04.26:303][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.18-08.04.26:308][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.18-08.04.26:565][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.18-08.04.26:611][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.18-08.04.26:659][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.18-08.04.26:659][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.18-08.04.26:659][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.18-08.04.27:392][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: magisterka, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2387860662
+[2017.07.18-08.04.27:457][  0]LogAssetRegistry: FAssetRegistry took 0.0227 seconds to start up
+[2017.07.18-08.04.27:520][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.041243 seconds
+[2017.07.18-08.04.27:533][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.07.18-08.04.27:533][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.07.18-08.04.27:533][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.18-08.04.27:620][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.18-08.04.28:397][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.18-08.04.28:415][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.18-08.04.28:415][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.18-08.04.29:903][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.18-08.04.29:942][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.18-08.04.30:407][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.18-08.04.30:833][  0]SourceControl: Info Source control is disabled
+[2017.07.18-08.04.30:834][  0]SourceControl: Info Source control is disabled
+[2017.07.18-08.04.30:883][  0]SourceControl: Info Source control is disabled
+[2017.07.18-08.04.30:931][  0]SourceControl: Info Source control is disabled
+[2017.07.18-08.04.32:410][  0]LogEngine: Initializing Engine...
+[2017.07.18-08.04.32:411][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.18-08.04.32:700][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.18-08.04.32:774][  0]LogInit: XAudio2 using 'SAMSUNG (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.18-08.04.32:794][  0]LogInit: FAudioDevice initialized.
+[2017.07.18-08.04.32:824][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Tommec/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.07.18-08.04.32:831][  0]LogInit: Texture streaming: Enabled
+[2017.07.18-08.04.33:014][  0]LogInit: Transaction tracking system initialized
+[2017.07.18-08.04.33:353][  0]BlueprintLog: New page: Editor Load
+[2017.07.18-08.04.34:254][  0]LocalizationService: Info Localization service is disabled
+[2017.07.18-08.04.34:911][  0]LogConsoleResponse:Display: 
+[2017.07.18-08.04.35:081][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.18-08.04.35:081][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.18-08.04.35:237][  0]LogFileCache: Scanning file cache for directory 'D:/Magisterka/Magisterka/Content/' took 0.01s
+[2017.07.18-08.04.36:092][  0]SourceControl: Info Source control is disabled
+[2017.07.18-08.04.36:092][  0]Cmd: MAP LOAD FILE="../../../../../../Magisterka/Magisterka/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.18-08.04.36:093][  0]LightingResults: New page: Lighting Build
+[2017.07.18-08.04.36:139][  0]MapCheck: New page: Map Check
+[2017.07.18-08.04.36:139][  0]LightingResults: New page: Lighting Build
+[2017.07.18-08.04.37:146][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.18-08.04.37:221][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.18-08.04.37:222][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.18-08.04.37:295][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.497ms to complete.
+[2017.07.18-08.04.37:295][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.203
+[2017.07.18-08.04.37:364][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.18-08.04.37:488][  0]LogCollectionManager: Loaded 0 collections in 0.001368 seconds
+[2017.07.18-08.04.37:579][  0]LogFileCache: Scanning file cache for directory 'D:/Magisterka/Magisterka/Saved/Collections/' took 0.01s
+[2017.07.18-08.04.37:579][  0]LogFileCache: Scanning file cache for directory 'D:/Magisterka/Magisterka/Content/Developers/Onirke/Collections/' took 0.01s
+[2017.07.18-08.04.37:579][  0]LogFileCache: Scanning file cache for directory 'D:/Magisterka/Magisterka/Content/Collections/' took 0.01s
+[2017.07.18-08.04.37:579][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.07.18-08.04.37:592][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2191 classes and 431 folders.
+[2017.07.18-08.04.37:648][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.18-08.04.37:648][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.18-08.04.37:649][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0012 seconds. Added 13 classes and 0 folders.
+[2017.07.18-08.04.37:729][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.07.18-08.04.37:806][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.18-08.04.37:855][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.07.18-08.04.37:909][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 1 classes and 3 folders.
+[2017.07.18-08.04.38:027][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.18-08.04.38:095][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Magisterka/Magisterka/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.07.18-08.04.38:124][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.18-08.04.38:283][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.07.18-08.04.38:283][  0]LogLoad: (Engine Initialization) Total time: 20.01 seconds
+[2017.07.18-08.04.38:283][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
+[2017.07.18-08.04.38:283][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.18-08.04.38:283][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.18-08.04.38:303][  0]LogOcInput: OculusInput pre-init called
+[2017.07.18-08.04.38:330][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.18-08.04.38:602][  2]LogRenderer: Reallocating scene render targets to support 756x432 NumSamples 1 (Frame:2).
+[2017.07.18-08.04.38:884][  2]LogAssetRegistry: Asset discovery search completed in 11.4504 seconds
+[2017.07.18-08.04.38:884][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.07.18-08.04.38:884][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2017.07.18-08.04.42:921][124]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.07.18-08.06.06:375][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewWidgetBlueprint_C_0' or package '/Engine/Transient'.
+[2017.07.18-08.06.06:375][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewWidgetBlueprint_C_1' or package '/Engine/Transient'.
+[2017.07.18-08.06.06:377][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewWidgetBlueprint_C_3' or package '/Engine/Transient'.
+[2017.07.18-08.06.06:378][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewWidgetBlueprint_C_2' or package '/Engine/Transient'.
+[2017.07.18-08.06.17:994][176]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2017.07.18-08.09.44:652][896]BlueprintLog: New page: Compile WebBrowser
+[2017.07.18-08.09.45:618][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WebBrowser" FILE="../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset" SILENT=true
+[2017.07.18-08.09.45:634][909]LogSavePackage: Save=13.73ms
+[2017.07.18-08.09.45:634][909]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/WebBrowser073DC5F64B539D9C21C5219C3BA5A918.tmp' to '../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset'
+[2017.07.18-08.09.45:636][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset
+[2017.07.18-08.09.56:750][170]LogActorFactory: Actor Factory created Cylinder
+[2017.07.18-08.09.57:801][197]LogActorFactory: Actor Factory created Cylinder
+[2017.07.18-08.10.02:973][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2017.07.18-08.10.03:070][325]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.07.18-08.10.04:148][354]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.07.18-08.10.04:190][354]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Cylinder2)
+[2017.07.18-08.10.05:207][381]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cylinder2)
+[2017.07.18-08.11.09:101][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2017.07.18-08.11.09:915][800]Cmd: DELETE
+[2017.07.18-08.11.09:916][800]Cmd: ACTOR DELETE
+[2017.07.18-08.11.10:362][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.18-08.11.10:411][800]LogEditorActor: Deleted 1 Actors (0.123 secs)
+[2017.07.18-08.11.13:252][860]LogRenderer: Reallocating scene render targets to support 1064x488 NumSamples 1 (Frame:4653).
+[2017.07.18-08.11.23:993][237]LogEditorTransaction: Undo Add Component
+[2017.07.18-08.11.49:424][ 19]LogTexture:Display: Building textures: T_Door_M (DXT1)
+[2017.07.18-08.11.50:508][ 19]LogTexture:Display: Building textures: T_Door_N (BC5)
+[2017.07.18-08.12.03:133][242]BlueprintLog: New page: Compile browser
+[2017.07.18-08.12.04:282][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/browser" FILE="../../../../../../Magisterka/Magisterka/Content/browser.uasset" SILENT=true
+[2017.07.18-08.12.04:325][250]LogSavePackage: Save=41.79ms
+[2017.07.18-08.12.04:325][250]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/browser7C237BC4420F24DBD8CC5C88A529C50D.tmp' to '../../../../../../Magisterka/Magisterka/Content/browser.uasset'
+[2017.07.18-08.12.04:328][250]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/browser.uasset
+[2017.07.18-08.12.26:930][861]BlueprintLog: New page: Compile browser
+[2017.07.18-08.12.51:369][694]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.18-08.14.56:758][782]LogSavePackage: Save=221.58ms
+[2017.07.18-08.14.56:759][782]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/FirstPersonExampleMap_Auto17A5C7F994183BAEA50A64383CFF1A69D.tmp' to '../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.07.18-08.14.56:761][782]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.07.18-08.14.56:764][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Clue2" FILE="../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/Clue2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.18-08.14.56:773][782]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Clue2, Actor: /Game/Clue2.Clue2:PersistentLevel.Clue2_C_0
+[2017.07.18-08.14.56:918][782]LogSavePackage: Save=148.22ms
+[2017.07.18-08.14.56:918][782]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/Clue2_Auto1DCD857674A828DFDAA113C840525F019.tmp' to '../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/Clue2_Auto1.umap'
+[2017.07.18-08.14.56:919][782]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/Clue2_Auto1.umap
+[2017.07.18-08.14.56:921][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Clue1" FILE="../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/Clue1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.18-08.14.56:955][782]LogSavePackage: Save=28.99ms
+[2017.07.18-08.14.56:955][782]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/Clue1_Auto1D17CE6DE4BABCD801CE72E960247B172.tmp' to '../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/Clue1_Auto1.umap'
+[2017.07.18-08.14.56:956][782]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/Clue1_Auto1.umap
+[2017.07.18-08.14.56:957][782]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.574
+[2017.07.18-08.14.56:957][782]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.574
+[2017.07.18-08.14.56:962][782]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewBlueprint] ([1] browsable assets)...
+[2017.07.18-08.14.56:962][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewBlueprint]
+[2017.07.18-08.14.56:962][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/NewBlueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.18-08.14.56:985][782]LogSavePackage: Save=18.60ms
+[2017.07.18-08.14.56:985][782]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/NewBlueprint_Auto198FBF2C8496A75B1439F84A3E20739EE.tmp' to '../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/NewBlueprint_Auto1.uasset'
+[2017.07.18-08.14.56:986][782]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/NewBlueprint_Auto1.uasset
+[2017.07.18-08.14.56:986][782]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/browser] ([1] browsable assets)...
+[2017.07.18-08.14.57:011][782]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/browser.browser]
+[2017.07.18-08.14.57:011][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/browser]
+[2017.07.18-08.14.57:011][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/browser" FILE="../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/browser_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.18-08.14.57:058][782]LogSavePackage: Save=43.25ms
+[2017.07.18-08.14.57:058][782]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/browser_Auto14F40A82648BD9E2CAC3B49B3DD93951D.tmp' to '../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/browser_Auto1.uasset'
+[2017.07.18-08.14.57:059][782]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/browser_Auto1.uasset
+[2017.07.18-08.14.57:059][782]LogFileHelpers: Auto-saving content packages took 0.098
+[2017.07.18-08.15.21:949][229]LogEditorTransaction: Undo Modify Component(s)
+[2017.07.18-08.15.28:509][364]BlueprintLog: New page: Compile browser
+[2017.07.18-08.16.09:890][302]LogEditorTransaction: Undo Move Widget
+[2017.07.18-08.16.10:297][308]LogEditorTransaction: Undo Move Widget
+[2017.07.18-08.16.10:477][310]LogEditorTransaction: Undo Resize Widget
+[2017.07.18-08.16.10:647][311]LogEditorTransaction: Undo Move Widget
+[2017.07.18-08.20.30:509][282]BlueprintLog: New page: Compile WebBrowser
+[2017.07.18-08.20.31:472][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WebBrowser" FILE="../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset" SILENT=true
+[2017.07.18-08.20.31:486][295]LogSavePackage: Save=10.13ms
+[2017.07.18-08.20.31:486][295]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/WebBrowser8208375E44F11E815458A9A525E6A590.tmp' to '../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset'
+[2017.07.18-08.20.31:488][295]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset
+[2017.07.18-08.20.56:860][769]BlueprintLog: New page: Compile browser
+[2017.07.18-08.24.57:602][745]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.021
+[2017.07.18-08.24.57:603][745]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/browser] ([1] browsable assets)...
+[2017.07.18-08.24.57:603][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/browser]
+[2017.07.18-08.24.57:603][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/browser" FILE="../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/browser_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.07.18-08.24.57:615][745]LogSavePackage: Save=9.14ms
+[2017.07.18-08.24.57:615][745]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/browser_Auto2C30D0ADA4B5D45B55EF7AEA09A64CB0A.tmp' to '../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/browser_Auto2.uasset'
+[2017.07.18-08.24.57:616][745]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Saved/Autosaves/Game/browser_Auto2.uasset
+[2017.07.18-08.24.57:616][745]LogFileHelpers: Auto-saving content packages took 0.014
+[2017.07.18-08.28.30:447][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WebBrowser" FILE="../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset" SILENT=true
+[2017.07.18-08.28.30:504][446]LogSavePackage: Save=7.89ms
+[2017.07.18-08.28.30:504][446]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/WebBrowserF28737424FC5FB7FB17088B5E26D5AFE.tmp' to '../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset'
+[2017.07.18-08.28.30:506][446]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset
+[2017.07.18-08.28.40:220][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WebBrowser" FILE="../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset" SILENT=true
+[2017.07.18-08.28.40:231][735]LogSavePackage: Save=8.02ms
+[2017.07.18-08.28.40:231][735]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/WebBrowser906716B94D545ED5F7484CAAB8001F08.tmp' to '../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset'
+[2017.07.18-08.28.40:233][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset
+[2017.07.18-08.28.40:748][750]BlueprintLog: New page: Compile WebBrowser
+[2017.07.18-08.28.41:411][761]BlueprintLog: New page: Compile WebBrowser
+[2017.07.18-08.28.57:686][179]BlueprintLog: New page: Compile WebBrowser
+[2017.07.18-08.28.58:528][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WebBrowser" FILE="../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset" SILENT=true
+[2017.07.18-08.28.58:541][193]LogSavePackage: Save=8.86ms
+[2017.07.18-08.28.58:541][193]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/WebBrowser8A0777AF4EEDC1B960B2349237E56EC4.tmp' to '../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset'
+[2017.07.18-08.28.58:543][193]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/WebBrowser.uasset
+[2017.07.18-08.29.03:816][322]BlueprintLog: New page: Compile browser
+[2017.07.18-08.29.05:533][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/browser" FILE="../../../../../../Magisterka/Magisterka/Content/browser.uasset" SILENT=true
+[2017.07.18-08.29.05:549][356]LogSavePackage: Save=12.88ms
+[2017.07.18-08.29.05:549][356]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/browserBF25E76A48CD4204821C4CADBCC47881.tmp' to '../../../../../../Magisterka/Magisterka/Content/browser.uasset'
+[2017.07.18-08.29.05:551][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/browser.uasset
+[2017.07.18-08.29.14:087][602]Cmd: SELECT NONE
+[2017.07.18-08.29.15:889][658]Cmd: TRANSACTION UNDO
+[2017.07.18-08.29.15:925][658]LogEditorTransaction: Undo Select None
+[2017.07.18-08.29.16:347][675]Cmd: TRANSACTION UNDO
+[2017.07.18-08.29.16:347][675]LogEditorTransaction: Undo Create Actors
+[2017.07.18-08.29.39:422][400]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.18-08.29.39:860][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.18-08.29.39:860][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Clue2.Clue2:PersistentLevel' has LevelScriptBlueprint '/Game/Clue2.Clue2:PersistentLevel.Clue2' with GeneratedClass '/Game/Clue2.Clue2_C' with ClassGeneratedBy '/Game/Clue2.Clue2:PersistentLevel.Clue2'
+[2017.07.18-08.29.39:948][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.18-08.29.40:131][400]PIE: New page: PIE session: FirstPersonExampleMap (18 Jul 2017 10:29:40)
+[2017.07.18-08.29.40:131][400]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.18-08.29.40:272][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141302s)
+[2017.07.18-08.29.40:274][400]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.18-08.29.40:298][400]LogPlayLevel: PIE: World Init took: (0.025957s)
+[2017.07.18-08.29.40:298][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.167644s)
+[2017.07.18-08.29.40:433][400]LogInit: XAudio2 using 'SAMSUNG (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.18-08.29.40:455][400]LogInit: FAudioDevice initialized.
+[2017.07.18-08.29.40:830][400]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.29.40:848][400]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.18-09.29.40
+[2017.07.18-08.29.40:947][400]LogWorld: Bringing up level for play took: 0.103225
+[2017.07.18-08.29.41:285][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.07.18-08.29.41:312][400]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.187
+[2017.07.18-08.29.41:312][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.18-08.29.41:312][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Clue2.Clue2:PersistentLevel' has LevelScriptBlueprint '/Game/Clue2.Clue2:PersistentLevel.Clue2' with GeneratedClass '/Game/Clue2.Clue2_C' with ClassGeneratedBy '/Game/Clue2.Clue2:PersistentLevel.Clue2'
+[2017.07.18-08.29.47:147][400]LogContentBrowser: Native class hierarchy updated for 'WebBrowser' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.18-08.35.31:956][207]LogNet: Browse: /Game/Clue1
+[2017.07.18-08.35.31:957][207]LogLoad: LoadMap: /Game/Clue1
+[2017.07.18-08.35.32:024][207]Cmd: MEM
+[2017.07.18-08.35.32:059][207]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.32:059][207]LogMemory: Process Physical Memory: 1757.02 MB used, 1757.03 MB peak
+[2017.07.18-08.35.32:059][207]LogMemory: Process Virtual Memory: 1647.02 MB used, 1647.17 MB peak
+[2017.07.18-08.35.32:059][207]LogMemory: Physical Memory: 5145.46 MB used,  2935.11 MB free, 8080.57 MB total
+[2017.07.18-08.35.32:059][207]LogMemory: Virtual Memory: 2603.04 MB used,  2935.11 MB free, 134217728.00 MB total
+[2017.07.18-08.35.32:059][207]LogMemory: 
+[2017.07.18-08.35.32:059][207]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.32:070][207]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue1
+[2017.07.18-08.35.32:073][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002758s)
+[2017.07.18-08.35.32:074][207]LogAIModule: Creating AISystem for world Clue1
+[2017.07.18-08.35.32:074][207]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2017.07.18-08.35.32:074][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue1.Clue1 to /Game/UEDPIE_0_Clue1.Clue1 (0.004079s)
+[2017.07.18-08.35.32:074][207]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.32:092][207]LogWorld: Bringing World /Game/UEDPIE_0_Clue1.Clue1 up for play (max tick rate 60) at 2017.07.18-09.35.32
+[2017.07.18-08.35.32:130][207]LogWorld: Bringing up level for play took: 0.040063
+[2017.07.18-08.35.32:218][207]LogLoad: Took 0.260757 seconds to LoadMap(/Game/UEDPIE_0_Clue1)
+[2017.07.18-08.35.34:992][330]LogNet: Browse: /Game/Clue1
+[2017.07.18-08.35.34:992][330]LogLoad: LoadMap: /Game/Clue1
+[2017.07.18-08.35.35:046][330]Cmd: MEM
+[2017.07.18-08.35.35:078][330]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.35:078][330]LogMemory: Process Physical Memory: 1767.31 MB used, 1771.99 MB peak
+[2017.07.18-08.35.35:078][330]LogMemory: Process Virtual Memory: 1652.95 MB used, 1652.96 MB peak
+[2017.07.18-08.35.35:078][330]LogMemory: Physical Memory: 5095.59 MB used,  2984.98 MB free, 8080.57 MB total
+[2017.07.18-08.35.35:078][330]LogMemory: Virtual Memory: 2605.47 MB used,  2984.98 MB free, 134217728.00 MB total
+[2017.07.18-08.35.35:078][330]LogMemory: 
+[2017.07.18-08.35.35:078][330]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.35:078][330]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue1
+[2017.07.18-08.35.35:083][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004743s)
+[2017.07.18-08.35.35:084][330]LogAIModule: Creating AISystem for world Clue1
+[2017.07.18-08.35.35:085][330]LogPlayLevel: PIE: World Init took: (0.001595s)
+[2017.07.18-08.35.35:085][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue1.Clue1 to /Game/UEDPIE_0_Clue1.Clue1 (0.006973s)
+[2017.07.18-08.35.35:086][330]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.35:093][330]LogWorld: Bringing World /Game/UEDPIE_0_Clue1.Clue1 up for play (max tick rate 60) at 2017.07.18-09.35.35
+[2017.07.18-08.35.35:094][330]LogWorld: Bringing up level for play took: 0.004722
+[2017.07.18-08.35.35:101][330]LogLoad: Took 0.109079 seconds to LoadMap(/Game/UEDPIE_0_Clue1)
+[2017.07.18-08.35.37:817][445]LogNet: Browse: /Game/Clue1
+[2017.07.18-08.35.37:817][445]LogLoad: LoadMap: /Game/Clue1
+[2017.07.18-08.35.37:867][445]Cmd: MEM
+[2017.07.18-08.35.37:899][445]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.37:899][445]LogMemory: Process Physical Memory: 1788.46 MB used, 1788.46 MB peak
+[2017.07.18-08.35.37:899][445]LogMemory: Process Virtual Memory: 1669.54 MB used, 1669.54 MB peak
+[2017.07.18-08.35.37:899][445]LogMemory: Physical Memory: 5115.20 MB used,  2965.37 MB free, 8080.57 MB total
+[2017.07.18-08.35.37:899][445]LogMemory: Virtual Memory: 2621.54 MB used,  2965.37 MB free, 134217728.00 MB total
+[2017.07.18-08.35.37:899][445]LogMemory: 
+[2017.07.18-08.35.37:899][445]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.37:899][445]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue1
+[2017.07.18-08.35.37:902][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002931s)
+[2017.07.18-08.35.37:903][445]LogAIModule: Creating AISystem for world Clue1
+[2017.07.18-08.35.37:904][445]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2017.07.18-08.35.37:904][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue1.Clue1 to /Game/UEDPIE_0_Clue1.Clue1 (0.004559s)
+[2017.07.18-08.35.37:904][445]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.37:910][445]LogWorld: Bringing World /Game/UEDPIE_0_Clue1.Clue1 up for play (max tick rate 60) at 2017.07.18-09.35.37
+[2017.07.18-08.35.37:910][445]LogWorld: Bringing up level for play took: 0.004082
+[2017.07.18-08.35.37:916][445]LogLoad: Took 0.098632 seconds to LoadMap(/Game/UEDPIE_0_Clue1)
+[2017.07.18-08.35.44:405][697]LogNet: Browse: /Game/Clue2
+[2017.07.18-08.35.44:405][697]LogLoad: LoadMap: /Game/Clue2
+[2017.07.18-08.35.44:457][697]Cmd: MEM
+[2017.07.18-08.35.44:488][697]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.44:488][697]LogMemory: Process Physical Memory: 1809.59 MB used, 1809.59 MB peak
+[2017.07.18-08.35.44:488][697]LogMemory: Process Virtual Memory: 1687.51 MB used, 1687.51 MB peak
+[2017.07.18-08.35.44:488][697]LogMemory: Physical Memory: 5147.80 MB used,  2932.77 MB free, 8080.57 MB total
+[2017.07.18-08.35.44:488][697]LogMemory: Virtual Memory: 2637.54 MB used,  2932.77 MB free, 134217728.00 MB total
+[2017.07.18-08.35.44:488][697]LogMemory: 
+[2017.07.18-08.35.44:488][697]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.44:488][697]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue2
+[2017.07.18-08.35.44:492][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004658s)
+[2017.07.18-08.35.44:493][697]LogAIModule: Creating AISystem for world Clue2
+[2017.07.18-08.35.44:494][697]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2017.07.18-08.35.44:494][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue2.Clue2 to /Game/UEDPIE_0_Clue2.Clue2 (0.006510s)
+[2017.07.18-08.35.44:494][697]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.44:500][697]LogWorld: Bringing World /Game/UEDPIE_0_Clue2.Clue2 up for play (max tick rate 60) at 2017.07.18-09.35.44
+[2017.07.18-08.35.44:501][697]LogWorld: Bringing up level for play took: 0.003367
+[2017.07.18-08.35.44:506][697]LogLoad: Took 0.100901 seconds to LoadMap(/Game/UEDPIE_0_Clue2)
+[2017.07.18-08.35.46:843][796]LogNet: Browse: /Game/Clue1
+[2017.07.18-08.35.46:843][796]LogLoad: LoadMap: /Game/Clue1
+[2017.07.18-08.35.46:971][796]Cmd: MEM
+[2017.07.18-08.35.47:025][796]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.47:025][796]LogMemory: Process Physical Memory: 1827.10 MB used, 1827.10 MB peak
+[2017.07.18-08.35.47:025][796]LogMemory: Process Virtual Memory: 1704.23 MB used, 1706.10 MB peak
+[2017.07.18-08.35.47:025][796]LogMemory: Physical Memory: 5132.46 MB used,  2948.11 MB free, 8080.57 MB total
+[2017.07.18-08.35.47:025][796]LogMemory: Virtual Memory: 2653.66 MB used,  2948.11 MB free, 134217728.00 MB total
+[2017.07.18-08.35.47:025][796]LogMemory: 
+[2017.07.18-08.35.47:025][796]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.47:025][796]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue1
+[2017.07.18-08.35.47:029][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004175s)
+[2017.07.18-08.35.47:030][796]LogAIModule: Creating AISystem for world Clue1
+[2017.07.18-08.35.47:031][796]LogPlayLevel: PIE: World Init took: (0.001543s)
+[2017.07.18-08.35.47:031][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue1.Clue1 to /Game/UEDPIE_0_Clue1.Clue1 (0.006229s)
+[2017.07.18-08.35.47:031][796]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.47:036][796]LogWorld: Bringing World /Game/UEDPIE_0_Clue1.Clue1 up for play (max tick rate 60) at 2017.07.18-09.35.47
+[2017.07.18-08.35.47:037][796]LogWorld: Bringing up level for play took: 0.002937
+[2017.07.18-08.35.47:052][796]LogLoad: Took 0.209797 seconds to LoadMap(/Game/UEDPIE_0_Clue1)
+[2017.07.18-08.35.50:795][932]LogNet: Browse: /Game/Clue2
+[2017.07.18-08.35.50:796][932]LogLoad: LoadMap: /Game/Clue2
+[2017.07.18-08.35.50:847][932]Cmd: MEM
+[2017.07.18-08.35.50:871][932]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.50:871][932]LogMemory: Process Physical Memory: 1847.88 MB used, 1847.88 MB peak
+[2017.07.18-08.35.50:871][932]LogMemory: Process Virtual Memory: 1736.29 MB used, 1736.29 MB peak
+[2017.07.18-08.35.50:871][932]LogMemory: Physical Memory: 5171.27 MB used,  2909.30 MB free, 8080.57 MB total
+[2017.07.18-08.35.50:871][932]LogMemory: Virtual Memory: 2685.66 MB used,  2909.30 MB free, 134217728.00 MB total
+[2017.07.18-08.35.50:871][932]LogMemory: 
+[2017.07.18-08.35.50:871][932]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.50:871][932]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue2
+[2017.07.18-08.35.50:875][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003805s)
+[2017.07.18-08.35.50:875][932]LogAIModule: Creating AISystem for world Clue2
+[2017.07.18-08.35.50:876][932]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2017.07.18-08.35.50:876][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue2.Clue2 to /Game/UEDPIE_0_Clue2.Clue2 (0.005190s)
+[2017.07.18-08.35.50:876][932]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.50:881][932]LogWorld: Bringing World /Game/UEDPIE_0_Clue2.Clue2 up for play (max tick rate 60) at 2017.07.18-09.35.50
+[2017.07.18-08.35.50:881][932]LogWorld: Bringing up level for play took: 0.002747
+[2017.07.18-08.35.50:886][932]LogLoad: Took 0.090606 seconds to LoadMap(/Game/UEDPIE_0_Clue2)
+[2017.07.18-08.35.53:097][ 23]LogNet: Browse: /Game/Clue2
+[2017.07.18-08.35.53:097][ 23]LogLoad: LoadMap: /Game/Clue2
+[2017.07.18-08.35.53:152][ 23]Cmd: MEM
+[2017.07.18-08.35.53:181][ 23]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.53:181][ 23]LogMemory: Process Physical Memory: 1869.89 MB used, 1869.89 MB peak
+[2017.07.18-08.35.53:181][ 23]LogMemory: Process Virtual Memory: 1752.36 MB used, 1752.36 MB peak
+[2017.07.18-08.35.53:181][ 23]LogMemory: Physical Memory: 5174.64 MB used,  2905.93 MB free, 8080.57 MB total
+[2017.07.18-08.35.53:181][ 23]LogMemory: Virtual Memory: 2701.66 MB used,  2905.93 MB free, 134217728.00 MB total
+[2017.07.18-08.35.53:181][ 23]LogMemory: 
+[2017.07.18-08.35.53:181][ 23]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.53:181][ 23]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue2
+[2017.07.18-08.35.53:185][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003276s)
+[2017.07.18-08.35.53:185][ 23]LogAIModule: Creating AISystem for world Clue2
+[2017.07.18-08.35.53:186][ 23]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2017.07.18-08.35.53:186][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue2.Clue2 to /Game/UEDPIE_0_Clue2.Clue2 (0.004689s)
+[2017.07.18-08.35.53:186][ 23]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.53:190][ 23]LogWorld: Bringing World /Game/UEDPIE_0_Clue2.Clue2 up for play (max tick rate 60) at 2017.07.18-09.35.53
+[2017.07.18-08.35.53:191][ 23]LogWorld: Bringing up level for play took: 0.002866
+[2017.07.18-08.35.53:195][ 23]LogLoad: Took 0.097641 seconds to LoadMap(/Game/UEDPIE_0_Clue2)
+[2017.07.18-08.35.56:686][172]LogNet: Browse: /Game/Clue1
+[2017.07.18-08.35.56:687][172]LogLoad: LoadMap: /Game/Clue1
+[2017.07.18-08.35.56:729][172]Cmd: MEM
+[2017.07.18-08.35.56:752][172]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.56:752][172]LogMemory: Process Physical Memory: 1890.14 MB used, 1890.14 MB peak
+[2017.07.18-08.35.56:752][172]LogMemory: Process Virtual Memory: 1768.52 MB used, 1768.52 MB peak
+[2017.07.18-08.35.56:752][172]LogMemory: Physical Memory: 5187.52 MB used,  2893.05 MB free, 8080.57 MB total
+[2017.07.18-08.35.56:752][172]LogMemory: Virtual Memory: 2717.66 MB used,  2893.05 MB free, 134217728.00 MB total
+[2017.07.18-08.35.56:752][172]LogMemory: 
+[2017.07.18-08.35.56:752][172]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.56:752][172]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue1
+[2017.07.18-08.35.56:754][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002653s)
+[2017.07.18-08.35.56:755][172]LogAIModule: Creating AISystem for world Clue1
+[2017.07.18-08.35.56:755][172]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2017.07.18-08.35.56:756][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue1.Clue1 to /Game/UEDPIE_0_Clue1.Clue1 (0.003871s)
+[2017.07.18-08.35.56:756][172]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.56:760][172]LogWorld: Bringing World /Game/UEDPIE_0_Clue1.Clue1 up for play (max tick rate 60) at 2017.07.18-09.35.56
+[2017.07.18-08.35.56:760][172]LogWorld: Bringing up level for play took: 0.002502
+[2017.07.18-08.35.56:764][172]LogLoad: Took 0.077606 seconds to LoadMap(/Game/UEDPIE_0_Clue1)
+[2017.07.18-08.35.59:087][276]LogNet: Browse: /Game/Clue1
+[2017.07.18-08.35.59:087][276]LogLoad: LoadMap: /Game/Clue1
+[2017.07.18-08.35.59:152][276]Cmd: MEM
+[2017.07.18-08.35.59:192][276]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-08.35.59:192][276]LogMemory: Process Physical Memory: 1911.09 MB used, 1911.09 MB peak
+[2017.07.18-08.35.59:192][276]LogMemory: Process Virtual Memory: 1800.64 MB used, 1800.64 MB peak
+[2017.07.18-08.35.59:192][276]LogMemory: Physical Memory: 5208.68 MB used,  2871.89 MB free, 8080.57 MB total
+[2017.07.18-08.35.59:192][276]LogMemory: Virtual Memory: 2749.72 MB used,  2871.89 MB free, 134217728.00 MB total
+[2017.07.18-08.35.59:192][276]LogMemory: 
+[2017.07.18-08.35.59:192][276]Allocator Stats for TBB: (not implemented)
+[2017.07.18-08.35.59:193][276]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Clue1
+[2017.07.18-08.35.59:199][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006050s)
+[2017.07.18-08.35.59:200][276]LogAIModule: Creating AISystem for world Clue1
+[2017.07.18-08.35.59:201][276]LogPlayLevel: PIE: World Init took: (0.001959s)
+[2017.07.18-08.35.59:201][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Clue1.Clue1 to /Game/UEDPIE_0_Clue1.Clue1 (0.008642s)
+[2017.07.18-08.35.59:201][276]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.18-08.35.59:209][276]LogWorld: Bringing World /Game/UEDPIE_0_Clue1.Clue1 up for play (max tick rate 60) at 2017.07.18-09.35.59
+[2017.07.18-08.35.59:210][276]LogWorld: Bringing up level for play took: 0.004515
+[2017.07.18-08.35.59:222][276]LogLoad: Took 0.135182 seconds to LoadMap(/Game/UEDPIE_0_Clue1)
+[2017.07.18-08.36.00:075][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.18-08.36.00:075][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Clue2.Clue2:PersistentLevel' has LevelScriptBlueprint '/Game/Clue2.Clue2:PersistentLevel.Clue2' with GeneratedClass '/Game/Clue2.Clue2_C' with ClassGeneratedBy '/Game/Clue2.Clue2:PersistentLevel.Clue2'
+[2017.07.18-08.36.00:320][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.18-08.36.00:320][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Clue2.Clue2:PersistentLevel' has LevelScriptBlueprint '/Game/Clue2.Clue2:PersistentLevel.Clue2' with GeneratedClass '/Game/Clue2.Clue2_C' with ClassGeneratedBy '/Game/Clue2.Clue2:PersistentLevel.Clue2'
+[2017.07.18-08.36.11:474][589]LogSavePackage: Save=266.42ms
+[2017.07.18-08.36.11:474][589]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/FirstPersonExampleMapFA109290404EF3E7917E04A3D923C998.tmp' to '../../../../../../Magisterka/Magisterka/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.18-08.36.11:478][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.18-08.36.11:516][589]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.501
+[2017.07.18-08.36.11:614][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Clue2" FILE="../../../../../../Magisterka/Magisterka/Content/Clue2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.18-08.36.11:647][589]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Clue2, Actor: /Game/Clue2.Clue2:PersistentLevel.Clue2_C_1
+[2017.07.18-08.36.11:816][589]LogSavePackage: Save=171.86ms
+[2017.07.18-08.36.11:816][589]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/Clue2E14669BF4C622421B3D3F78B2F2026D4.tmp' to '../../../../../../Magisterka/Magisterka/Content/Clue2.umap'
+[2017.07.18-08.36.11:820][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/Clue2.umap
+[2017.07.18-08.36.11:821][589]LogFileHelpers: Saving map 'Clue2' took 0.297
+[2017.07.18-08.36.11:914][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Clue1" FILE="../../../../../../Magisterka/Magisterka/Content/Clue1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.18-08.36.12:050][589]LogSavePackage: Save=102.15ms
+[2017.07.18-08.36.12:050][589]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/Clue174156F38470CAC84C163F783FF07222C.tmp' to '../../../../../../Magisterka/Magisterka/Content/Clue1.umap'
+[2017.07.18-08.36.12:062][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/Clue1.umap
+[2017.07.18-08.36.12:063][589]LogFileHelpers: Saving map 'Clue1' took 0.238
+[2017.07.18-10.12.47:283][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="../../../../../../Magisterka/Magisterka/Content/NewBlueprint.uasset" SILENT=true
+[2017.07.18-10.12.47:360][108]LogSavePackage: Save=25.20ms
+[2017.07.18-10.12.47:360][108]LogSavePackage: Moving '../../../../../../Magisterka/Magisterka/Saved/NewBlueprintC77F905942B5F0424FBE47A4DD3F07B4.tmp' to '../../../../../../Magisterka/Magisterka/Content/NewBlueprint.uasset'
+[2017.07.18-10.12.47:361][108]LogSavePackage:Display: Finished SavePackage ../../../../../../Magisterka/Magisterka/Content/NewBlueprint.uasset
+[2017.07.18-10.12.49:353][108]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.18-10.12.49:831][108]Cmd: QUIT_EDITOR
+[2017.07.18-10.12.51:397][108]LogExit: Preparing to exit.
+[2017.07.18-10.12.52:477][108]LogDirectoryWatcher: A directory notification failed for 'D:/Magisterka/Magisterka/Content/', and we were unable to create a new request.
+[2017.07.18-10.12.52:930][108]LogExit: Editor shut down
+[2017.07.18-10.12.52:931][108]LogExit: Transaction tracking system shut down
